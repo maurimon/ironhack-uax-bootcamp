@@ -1,0 +1,152 @@
+body {
+    margin: 0;
+}
+
+.title h2 {
+    background-color: violet;
+    padding: 25px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bolder;
+}
+
+.links {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: -10px;
+    margin-bottom: -10px;
+    margin-left: 50px;
+}
+
+.links a:nth-child(1) {
+    border-right: 1px solid black;
+    /*padding-right: 100px;*/
+}
+
+.links a:nth-child(2) {
+    border-right: 1px solid black;
+    /*padding-right: 100px;*/
+}
+
+.links a:nth-child(3) {
+    border-right: 1px solid black;
+    /*padding-right: 100px;*/
+    color: lightgrey;
+}
+
+h2 {
+    text-align: left;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    border-top: 1px solid black;
+    padding-top: 10px;
+}
+
+.block1 {
+    margin-top: -12.5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.block1 img {
+    height: 200px;
+}
+
+.block1 p {
+    text-align: center;
+    font-size: xx-small;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.block1 span {
+    font-size: x-small;
+    margin-bottom: 20px;
+}
+
+.block2 {
+    margin-top: -12.5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+.block2 img {
+    height: 200px;
+    width: 400px;
+}
+
+.block2 p {
+    text-align: center;
+    font-size: xx-small;
+    padding-left: 30px;
+    padding-right: 600px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.block2 span {
+    font-size: x-small;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-right: 575px;
+}
+
+.block3 {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+}
+
+.block3 img {
+    height: 200px;
+    width: 400px;
+    margin-left: 565px;
+}
+
+.block3 p {
+    text-align: center;
+    font-size: xx-small;
+    padding-left: 600px;
+    padding-right: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.block3 span {
+    font-size: x-small;
+    margin-bottom: 10px;
+    text-align: right;
+    
+}
+
+.list {
+    /*margin-left: 850px;
+    margin-top: 10px;
+    border: 10px solid black;*/
+    position: fixed;
+    bottom: 20;
+    right: 20;
+
+}
+
+.items li:nth-child(1) {
+   margin-bottom: 10px;
+}
+
+.items li:nth-child(2) {
+    margin-bottom: 10px;
+ }
+
+ .items li {
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+ }
+

@@ -1,0 +1,276 @@
+.title h1 {
+    background-color: violet;
+    padding: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    border-bottom: 1px solid black;
+}
+
+body {
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.general {
+    display: inline-flex;
+    margin-top: -20px;
+    height: 850px;
+}
+
+.sections {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5x;
+}
+
+.menu {
+    width: 300px;
+    margin-top: -6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.title-links {
+    text-align: center;
+    margin-top: -5px;
+}
+
+.title-links h2 {
+    margin-top: 25px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border: 1px solid black;
+    margin-left: 1px;
+    margin-top: -10px;
+    height: 150px;
+    text-transform: capitalize;
+}
+
+.list {
+    /*margin-bottom: 100px;*/
+    position: fixed;
+    bottom: 20;
+    left: 20;
+}
+
+.list ul {
+    margin-left: -10px;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+li {
+    text-align: left;
+    text-transform: capitalize;
+}
+
+.items li:nth-child(1) {
+    margin-bottom: 15px;
+}
+
+.items li:nth-child(2) {
+    margin-bottom: 15px;
+}
+
+
+.word {
+    text-transform: uppercase;
+}
+
+.sections {
+    display: flex;
+    flex-direction: column;
+}
+
+.section1 h2 {
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-bottom: 14px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+
+.section1-block {
+    border: 1px solid black;
+    height: 270px;
+    width: 1200px;
+    margin-left: 2px;
+    margin-top: -5px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.section1-block div {
+    /*border: 1px solid black;*/
+    width: 300px;
+    margin-top: 5px;
+}
+
+.section1-block div:nth-child(1) {
+    display: flex;
+    flex-direction: column; 
+}
+
+.s1b-block1 img {
+    height: 150px;
+    width: 298px;
+}
+
+.s1b-block1 p {
+    text-align: center;
+    font-size: smaller;
+    margin-left: 2.5px;
+    margin-right: 2.5px;
+}
+
+.s1b-block1 span {
+    text-align: left;
+}
+
+.section1-block div:nth-child(2) {
+    display: flex;
+    flex-direction: column; 
+}
+
+
+.s1b-block2 img {
+    height: 150px;
+    width: 298px;
+}
+
+.s1b-block2 p {
+    text-align: center;
+    font-size: smaller;
+    margin-left: 2.5px;
+    margin-right: 2.5px;
+}
+
+.s1b-block2 span {
+    text-align: center;
+}
+
+.section1-block div:nth-child(3) {
+    display: flex;
+    flex-direction: column; 
+}
+
+
+.s1b-block3 img {
+    height: 150px;
+    width: 298px;
+}
+
+.s1b-block3 p {
+    text-align: center;
+    font-size: smaller;
+    margin-left: 2.5px;
+    margin-right: 2.5px;
+}
+
+.s1b-block3 span {
+    text-align: right;
+}
+
+
+.section2 h2 {
+    margin-top: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+
+.section2-block {
+    border: 1px solid black;
+    height: 401px;
+    width: 1202px;
+    margin-top: -10px;
+    display: inline-flex;
+    /*justify-content: center;*/
+    justify-content: space-between;
+}
+
+/*.section2-block div {
+    border: 1px solid black;
+    height: 400px;
+    width: 400px;
+
+}*/
+
+.s2b-block1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.s2b-block1 img {
+    height: 300px;
+    width: 300px;
+    margin-top: 1px;
+}
+
+.s2b-block1 button {
+    width: 100px;
+    height: 50px;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.s2b-block2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.s2b-block2 img {
+    height: 300px;
+    width: 300px;
+    margin-bottom: 1px;
+}
+
+.s2b-block2 button {
+    height: 50px;
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+.s2b-block3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.s2b-block3 img {
+    margin-top: 1px;
+    margin-right: 1px;
+    height: 300px;
+    width: 300px;
+}
+
+.s2b-block3 button {
+    width: 100px;
+    height: 50px;
+    margin-left: 200px;
+    margin-top: -1px;
+}
+
+.footer {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    height: 100px;
+    
+}

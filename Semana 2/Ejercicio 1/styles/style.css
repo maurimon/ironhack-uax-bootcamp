@@ -1,0 +1,9 @@
+.div1 {
+    border: 10px solid #17212E;
+}
+
+.div2 {
+    border-width: 10px;
+    border-style: solid;
+    border-color: #17212E;
+}
